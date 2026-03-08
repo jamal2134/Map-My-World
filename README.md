@@ -154,9 +154,7 @@ rtabmap-databaseViewer ~/.ros/rtabmap.db
 ![Mapping: Database Viewer](images/image6.png)
 
 ---
-![Mapping: Database Viewer](images/image7.png)
 
----
 
 ## References
 * RTAB-Map ROS Documentation
