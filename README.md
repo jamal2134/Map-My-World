@@ -8,6 +8,9 @@ For this project we will be using the rtabmap_ros package, which is a ROS wrappe
 ![Mapping in RViz 1](images/image1.png)
 
 ---
+![Mapping in RViz 1](images/image2.png)
+
+---
 
 
 ##  System Requirements
