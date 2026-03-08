@@ -11,6 +11,9 @@ For this project we will be using the rtabmap_ros package, which is a ROS wrappe
 ![Mapping in RViz 1](images/image2.png)
 
 ---
+![Mapping: Database Viewer](images/image3.png)
+
+---
 
 
 ##  System Requirements
@@ -127,7 +130,33 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 roslaunch location localization.launch
 ```
 
+## Mapping: Database Viewer
 
+Database Analysis
+The rtabmap-databaseViewer is a great tool for exploring your database when you are done generating it. It is isolated from ROS and allows for complete analysis of your mapping session.
+
+This is how you will check for loop closures, generate 3D maps for viewing, extract images, check feature mapping rich zones, and much more!
+
+```bash
+rtabmap-databaseViewer ~/.ros/rtabmap.db
+```
+* Say yes to using the database parameters
+* View -> Constraint View
+* View -> Graph View
+
+---
+![Mapping: Database Viewer](images/image4.png)
+
+---
+![Mapping: Database Viewer](images/image5.png)
+
+---
+![Mapping: Database Viewer](images/image6.png)
+
+---
+![Mapping: Database Viewer](images/image7.png)
+
+---
 
 ## References
 * RTAB-Map ROS Documentation
