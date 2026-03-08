@@ -122,6 +122,11 @@ roslaunch location mapping.launch
 ```bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
+- Optional: RTAB-Map Localization
+```bash
+roslaunch location localization.launch
+```
+
 
 
 ## References
