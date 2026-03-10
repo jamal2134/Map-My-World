@@ -155,9 +155,9 @@ rtabmap-databaseViewer ~/.ros/rtabmap.db
 
 ---
 ## Google Drive Link
-Therefore, the RTAB-Map database file and 3D Colored Point Cloud Map have been uploaded to Google Drive. You can download it using the link below:
+The RTAB-Map database file and 3D Colored Point Cloud Map have been uploaded to Google Drive. You can download it using the link below:
 
-(https://drive.google.com/drive/folders/1ZgoVFMTOIttTo4g2p07CoGNjzHJ4-vRo?usp=sharing)
+https://drive.google.com/drive/folders/1ZgoVFMTOIttTo4g2p07CoGNjzHJ4-vRo?usp=sharing
 
 ## View RTAB-Map Database
 
