@@ -155,6 +155,23 @@ rtabmap-databaseViewer ~/.ros/rtabmap.db
 
 ---
 
+## View RTAB-Map Database
+
+```bash
+rtabmap-databaseViewer rtabmap.db
+```
+
+## View 3D Colored Point Cloud Map
+The generated 3D map is exported as a PCD (Point Cloud Data) file.
+
+This file represents the reconstructed environment as a colored point cloud generated from RGB-D data.
+
+* View the map using PCL viewer
+```bash
+pcl_viewer map_cloud.pcd
+```
+
+
 
 ## References
 * RTAB-Map ROS Documentation
